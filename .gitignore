@@ -1,0 +1,48 @@
+# Virtual environment
+venv/
+__pycache__/
+
+# Database
+db.sqlite3
+
+# Static files
+staticfiles/
+
+# Media files
+media/
+
+# Environment variables
+.env
+
+# Compiled Python files
+*.pyc
+
+# macOS system files
+.DS_Store
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Log files
+*.log
+
+# Local settings
+local_settings.py
+
+# Configuration files
+*.config
+
+# Temporary files
+*.swp
+
+# Dependency files
+pipfile.lock
+Pipfile.lock
+
+# Ignore migrations (they can be generated again)
+**/migrations/*.py
+**/migrations/*.pyc
+
+# Ignore secret key file
+secret_key
